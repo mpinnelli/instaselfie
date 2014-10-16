@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		064123FA19F087EA00639F1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 064123F919F087EA00639F1F /* main.m */; };
+		064123FD19F087EA00639F1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 064123FC19F087EA00639F1F /* AppDelegate.m */; };
+		0641240019F087EA00639F1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 064123FF19F087EA00639F1F /* ViewController.m */; };
+		0641240319F087EA00639F1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0641240119F087EA00639F1F /* Main.storyboard */; };
+		0641240519F087EB00639F1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0641240419F087EB00639F1F /* Images.xcassets */; };
+		0641240819F087EB00639F1F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0641240619F087EB00639F1F /* LaunchScreen.xib */; };
+		0641241419F087EB00639F1F /* instahashselfieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0641241319F087EB00639F1F /* instahashselfieTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0641240E19F087EB00639F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 064123EC19F087E900639F1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 064123F319F087EA00639F1F;
+			remoteInfo = instahashselfie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064123F419F087EA00639F1F /* instahashselfie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instahashselfie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		064123F819F087EA00639F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		064123F919F087EA00639F1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		064123FB19F087EA00639F1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		064123FC19F087EA00639F1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		064123FE19F087EA00639F1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		064123FF19F087EA00639F1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0641240219F087EA00639F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0641240419F087EB00639F1F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0641240719F087EB00639F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0641240D19F087EB00639F1F /* instahashselfieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instahashselfieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0641241219F087EB00639F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0641241319F087EB00639F1F /* instahashselfieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = instahashselfieTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		064123F119F087EA00639F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0641240A19F087EB00639F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		064123EB19F087E900639F1F = {
+			isa = PBXGroup;
+			children = (
+				064123F619F087EA00639F1F /* instahashselfie */,
+				0641241019F087EB00639F1F /* instahashselfieTests */,
+				064123F519F087EA00639F1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		064123F519F087EA00639F1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				064123F419F087EA00639F1F /* instahashselfie.app */,
+				0641240D19F087EB00639F1F /* instahashselfieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		064123F619F087EA00639F1F /* instahashselfie */ = {
+			isa = PBXGroup;
+			children = (
+				064123FB19F087EA00639F1F /* AppDelegate.h */,
+				064123FC19F087EA00639F1F /* AppDelegate.m */,
+				064123FE19F087EA00639F1F /* ViewController.h */,
+				064123FF19F087EA00639F1F /* ViewController.m */,
+				0641240119F087EA00639F1F /* Main.storyboard */,
+				0641240419F087EB00639F1F /* Images.xcassets */,
+				0641240619F087EB00639F1F /* LaunchScreen.xib */,
+				064123F719F087EA00639F1F /* Supporting Files */,
+			);
+			path = instahashselfie;
+			sourceTree = "<group>";
+		};
+		064123F719F087EA00639F1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				064123F819F087EA00639F1F /* Info.plist */,
+				064123F919F087EA00639F1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0641241019F087EB00639F1F /* instahashselfieTests */ = {
+			isa = PBXGroup;
+			children = (
+				0641241319F087EB00639F1F /* instahashselfieTests.m */,
+				0641241119F087EB00639F1F /* Supporting Files */,
+			);
+			path = instahashselfieTests;
+			sourceTree = "<group>";
+		};
+		0641241119F087EB00639F1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0641241219F087EB00639F1F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		064123F319F087EA00639F1F /* instahashselfie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0641241719F087EC00639F1F /* Build configuration list for PBXNativeTarget "instahashselfie" */;
+			buildPhases = (
+				064123F019F087EA00639F1F /* Sources */,
+				064123F119F087EA00639F1F /* Frameworks */,
+				064123F219F087EA00639F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = instahashselfie;
+			productName = instahashselfie;
+			productReference = 064123F419F087EA00639F1F /* instahashselfie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0641240C19F087EB00639F1F /* instahashselfieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0641241A19F087EC00639F1F /* Build configuration list for PBXNativeTarget "instahashselfieTests" */;
+			buildPhases = (
+				0641240919F087EB00639F1F /* Sources */,
+				0641240A19F087EB00639F1F /* Frameworks */,
+				0641240B19F087EB00639F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0641240F19F087EB00639F1F /* PBXTargetDependency */,
+			);
+			name = instahashselfieTests;
+			productName = instahashselfieTests;
+			productReference = 0641240D19F087EB00639F1F /* instahashselfieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		064123EC19F087E900639F1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = MMinfoSolutions.Inc;
+				TargetAttributes = {
+					064123F319F087EA00639F1F = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					0641240C19F087EB00639F1F = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 064123F319F087EA00639F1F;
+					};
+				};
+			};
+			buildConfigurationList = 064123EF19F087E900639F1F /* Build configuration list for PBXProject "instahashselfie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 064123EB19F087E900639F1F;
+			productRefGroup = 064123F519F087EA00639F1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				064123F319F087EA00639F1F /* instahashselfie */,
+				0641240C19F087EB00639F1F /* instahashselfieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		064123F219F087EA00639F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0641240319F087EA00639F1F /* Main.storyboard in Resources */,
+				0641240819F087EB00639F1F /* LaunchScreen.xib in Resources */,
+				0641240519F087EB00639F1F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0641240B19F087EB00639F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		064123F019F087EA00639F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0641240019F087EA00639F1F /* ViewController.m in Sources */,
+				064123FD19F087EA00639F1F /* AppDelegate.m in Sources */,
+				064123FA19F087EA00639F1F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0641240919F087EB00639F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0641241419F087EB00639F1F /* instahashselfieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0641240F19F087EB00639F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 064123F319F087EA00639F1F /* instahashselfie */;
+			targetProxy = 0641240E19F087EB00639F1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0641240119F087EA00639F1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0641240219F087EA00639F1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0641240619F087EB00639F1F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0641240719F087EB00639F1F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0641241519F087EC00639F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0641241619F087EC00639F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0641241819F087EC00639F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = instahashselfie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0641241919F087EC00639F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = instahashselfie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0641241B19F087EC00639F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = instahashselfieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instahashselfie.app/instahashselfie";
+			};
+			name = Debug;
+		};
+		0641241C19F087EC00639F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = instahashselfieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instahashselfie.app/instahashselfie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		064123EF19F087E900639F1F /* Build configuration list for PBXProject "instahashselfie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0641241519F087EC00639F1F /* Debug */,
+				0641241619F087EC00639F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0641241719F087EC00639F1F /* Build configuration list for PBXNativeTarget "instahashselfie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0641241819F087EC00639F1F /* Debug */,
+				0641241919F087EC00639F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0641241A19F087EC00639F1F /* Build configuration list for PBXNativeTarget "instahashselfieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0641241B19F087EC00639F1F /* Debug */,
+				0641241C19F087EC00639F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 064123EC19F087E900639F1F /* Project object */;
+}
