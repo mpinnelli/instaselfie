@@ -14,9 +14,34 @@
 
 @implementation ViewController
 
+
+-(IBAction)touchupInside:(id)sender
+{
+    
+   /* NSURL *instagramURL = [NSURL URLWithString:@"instagram://"];
+    if ([[UIApplication sharedApplication] canOpenURL:instagramURL]) {
+        [[UIApplication sharedApplication] openURL:instagramURL];
+    }
+    
+    [[UIApplication sharedApplication] openURL:instagramURL];*/
+
+}
+
 - (void)viewDidLoad {
+    
+    button1=[[UIButton alloc]init];
+    
+    [button1 addTarget:self action:@selector(gotoFirst) forControlEvents:UIControlEventTouchUpInside];
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)gotoFirst
+{
+    
+    [self performSegueWithIdentifier:@"Login" sender:self];
+    
 }
 
 - (void)didReceiveMemoryWarning {

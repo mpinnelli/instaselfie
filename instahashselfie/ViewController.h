@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet UIButton*button1;
 
+}
+
+-(IBAction)touchupInside:(id)sender;
 
 @end
 

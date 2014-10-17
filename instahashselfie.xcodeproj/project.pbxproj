@@ -14,6 +14,7 @@
 		0641240519F087EB00639F1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0641240419F087EB00639F1F /* Images.xcassets */; };
 		0641240819F087EB00639F1F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0641240619F087EB00639F1F /* LaunchScreen.xib */; };
 		0641241419F087EB00639F1F /* instahashselfieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0641241319F087EB00639F1F /* instahashselfieTests.m */; };
+		0641241F19F16AB100639F1F /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 0641241E19F16AB100639F1F /* Login.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		0641240D19F087EB00639F1F /* instahashselfieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instahashselfieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0641241219F087EB00639F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0641241319F087EB00639F1F /* instahashselfieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = instahashselfieTests.m; sourceTree = "<group>"; };
+		0641241D19F16AB100639F1F /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		0641241E19F16AB100639F1F /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				064123FC19F087EA00639F1F /* AppDelegate.m */,
 				064123FE19F087EA00639F1F /* ViewController.h */,
 				064123FF19F087EA00639F1F /* ViewController.m */,
+				0641241D19F16AB100639F1F /* Login.h */,
+				0641241E19F16AB100639F1F /* Login.m */,
 				0641240119F087EA00639F1F /* Main.storyboard */,
 				0641240419F087EB00639F1F /* Images.xcassets */,
 				0641240619F087EB00639F1F /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				0641240019F087EA00639F1F /* ViewController.m in Sources */,
 				064123FD19F087EA00639F1F /* AppDelegate.m in Sources */,
 				064123FA19F087EA00639F1F /* main.m in Sources */,
+				0641241F19F16AB100639F1F /* Login.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
